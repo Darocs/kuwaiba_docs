@@ -15,7 +15,7 @@ to Kuwaiba, regardless of your skills or time availability:
   Create an issue. Send Pull requests.
 - **Document Kuwaiba's processess.** This includes - writing missing 
   documentation chapters, improve existing ones and translate them to 
-  your language.
+  your language and much more.
 - **Donate**. We use donation money primarily to hire core developers 
   so they can work full-time on the project.
 
