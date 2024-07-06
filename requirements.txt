@@ -6,3 +6,4 @@ sphinx-simplepdf==1.6
 sphinx-hoverxref
 sphinx-intl
 sphinxcontrib-kroki
+sphinxcontrib-youtube

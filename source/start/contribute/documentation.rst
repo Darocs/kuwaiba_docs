@@ -1,6 +1,11 @@
 Contributing to Documenting Kuwaiba from scratch
 ------------------------------------------------
 
+If you prefer video for getting new information please start here:
+
+.. youtube:: tJB7T3RFoRo
+
+
 Kuwaiba documentation is build on ReadTheDocs_ (RTD) platform. That means automatic documentation
 deployment with the Sphinx_ engine. To work with that platform you need git_ installed, `github account <github_>`_ and 
 `text editor <editor_>`_, working with git. We prefer `VS Code`_, so the following story will be 
@@ -15,9 +20,9 @@ in relation with this editor, but you can work with the one of your choice.
       * 5 Tips for `Note Taking`_ with VS Code & Git
       * `Pull Requests`_ in VS Code
 
-As far as :hoverxref:`RTD <my-rtd-label>` is using reStructuredText_ (RST) it is considered useful to install an 
+As far as :hoverxref:`RTD <rtd-acronym>` is using reStructuredText_ (RST) it is considered useful to install an 
 extension `reStructuredText by LeXtudio`_ (RTL). Unfortunately the extension is now considered 
-for experienced users so we give you :doc:`some breadcrumbs</start/contribute/make_lextudio_work>`.
+for experienced users, so we give you :doc:`some breadcrumbs</start/contribute/make_lextudio_work>`.
 
 When you feel comfortable enough with VS Code, you might find useful the official `Sphinx RST Tutorial`_ or
 try this `nice video course`_ by chance available on youtube.

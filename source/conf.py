@@ -35,7 +35,8 @@ extensions = [
     'sphinx_copybutton',
     'myst_parser',
     'hoverxref.extension',
-    'sphinxcontrib.kroki',    
+    'sphinxcontrib.kroki',
+    'sphinxcontrib.youtube',
 ]
 
 intersphinx_mapping = {
