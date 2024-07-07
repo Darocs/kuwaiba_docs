@@ -7,3 +7,7 @@ sphinx-hoverxref
 sphinx-intl
 sphinxcontrib-kroki
 sphinxcontrib-youtube
+rstcheck
+rstcheck[sphinx]
+rstfmt
+pre-commit
