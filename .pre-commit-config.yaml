@@ -6,6 +6,10 @@ repos:
 #    additional_dependencies: [sphinx]
 #    exclude: source/res
 #    args: [--report-level=info, --config=.rstcheck.project.cfg]
+
+# ----------------------------------------------
+# Validate .pre-commit-hooks.yaml file
+# ----------------------------------------------
 - repo: https://github.com/pre-commit/pre-commit
   rev: v3.7.1
   hooks:
