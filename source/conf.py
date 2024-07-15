@@ -1,7 +1,7 @@
 # Configuration file for the Sphinx documentation builder.
 
 import os
-import sphinx
+from sphinx.util import i18n
 
 
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
@@ -69,7 +69,7 @@ locale_dirs = ['../../locales']
 # https://github.com/sphinx-doc/sphinx/issues/7768 to see what would be relevant for us.
 figure_language_filename = "{root}.{language}{ext}"
 
-sphinx_original_get_image_filename_for_language = sphinx.util.i18n.get_image_filename_for_language
+sphinx_original_get_image_filename_for_language = i18n.get_image_filename_for_language
 
 def kuwaiba_get_image_filename_for_language(filename, env):
     """
@@ -86,5 +86,5 @@ def kuwaiba_get_image_filename_for_language(filename, env):
         path = sep + os.path.relpath(abs_path, cwd)    
     return path
     
-sphinx.util.i18n.get_image_filename_for_language = kuwaiba_get_image_filename_for_language
+i18n.get_image_filename_for_language = kuwaiba_get_image_filename_for_language
 
