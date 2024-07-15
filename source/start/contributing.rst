@@ -45,11 +45,7 @@ Translating
 Translation is organized with Weblate_. Typical process is shown on the 
 diagram below.
 
- 
-    kroki:: 
-    :caption: Translating BPMN flow
-    :filename: /res/start/translate.bpmn
-    :type: bpmn
+
 
 
 .. _Weblate: https://hosted.weblate.org/projects/kuwaiba/ 
