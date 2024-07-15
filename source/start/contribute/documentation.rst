@@ -3,7 +3,8 @@ Contributing to Documenting Kuwaiba from scratch
 
 If you prefer video for getting new information please start here:
 
-.. youtube:: tJB7T3RFoRo
+.. 
+  youtube:: tJB7T3RFoRo
 
 
 Kuwaiba documentation is build on ReadTheDocs_ (RTD) platform. That means automatic documentation
