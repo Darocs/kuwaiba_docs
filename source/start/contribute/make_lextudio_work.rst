@@ -8,13 +8,17 @@ Below is a process of installing RTL in **Windows**.
     * Docs files from docs repo on Github were pulled to the working directory
     * You are familiar with recommended :ref:`official videos VS Code <official videos vs code>`
 
+.. _rtl first step:
+
 1. Check that Python is installed on your machine. :kbd:`⊞ Win` + :kbd:`cmd` and then print 
 
     .. code-block:: console
 
         py --version
 
-    your version should be higher than ``3.8.0``. If Python is missed or the version is old you 
+    your version should be higher than ``3.8.0``. If you have no Python and never installed Python before, 
+    check our :doc:`help here</start/contribute/python_install>`.
+    If Python is missed or the version is old you 
     should get it from `official source`_. It is recommended to add ``python.exe`` to the path -- see
     checkbox on the initial screen before installation. In the end it is recommended to disable path limit.
     After installation is complete, reload VS Code to let the path to Python scripts updates.
