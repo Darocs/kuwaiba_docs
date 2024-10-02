@@ -8,15 +8,20 @@ Acronyms
 
 .. _rst-acronym:
 
-    **RST** - reStructuredText - a `lightweight markup language`_ used for technical documentation
+Section to cross-reference
+--------------------------
+
+This is the text of the section.
+
+**RST** - reStructuredText - a `lightweight markup language`_ used for technical documentation
 
 .. _rtd-acronym:
 
-    **RTD** - ReadTheDocs - a platform for documentation
+**RTD** - ReadTheDocs - a platform for documentation
 
 .. _rtl-acronym:
 
-    **RTL** - reStructuredText by LeXtudio -- extension for VS Code to support work with RST
+**RTL** - reStructuredText by LeXtudio -- extension for VS Code to support work with RST
 
 Glossary
 --------
