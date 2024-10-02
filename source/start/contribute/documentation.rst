@@ -24,8 +24,12 @@ As far as :hoverxref:RTD is using reStructuredText_ (RST) it is considered usefu
 extension `reStructuredText by LeXtudio`_ (RTL). Unfortunately the extension is now considered 
 for experienced users, so we give you :doc:`some breadcrumbs</start/contribute/make_lextudio_work>`.
 
-When you feel comfortable enough with VS Code, you might find useful the official `Sphinx RST Tutorial`_ or
-try this `nice video course`_ by chance available on youtube.
+When you feel comfortable enough with VS Code, you might find useful 
+the official `Sphinx RST Tutorial`_ or try this `nice video course`_ 
+by chance available on youtube.
+
+If you are getting better with :hoverxref:`RST <rst-acronym>` check our 
+:doc:`rst snippets </start/contribute/rst_snippets>`.
 
 
 .. _ReadTheDocs: https://about.readthedocs.com/?ref=readthedocs.org
