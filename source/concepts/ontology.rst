@@ -8,11 +8,6 @@ Acronyms
 
 .. _rst-acronym:
 
-Section to cross-reference
---------------------------
-
-This is the text of the section.
-
 **RST** - reStructuredText - a `lightweight markup language`_ used for technical documentation
 
 .. _rtd-acronym:
