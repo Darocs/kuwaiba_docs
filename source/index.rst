@@ -65,4 +65,6 @@ Let's start your Kuwaiba journey...
    :hidden:
    :caption: Tutorials
 
+   tutorials/dwdm_ring
    tutorials/reporting
+   
