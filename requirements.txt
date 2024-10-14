@@ -3,7 +3,11 @@ sphinx-rtd-theme==2.0.0
 sphinx-copybutton==0.5.2
 myst-parser==3.0.1
 sphinx-simplepdf==1.6
-sphinx-hoverxref
+sphinx-hoverxref==1.4.1
 sphinx-intl
 sphinxcontrib-kroki
 sphinxcontrib-youtube
+rstcheck
+rstcheck[sphinx]
+rstfmt
+pre-commit

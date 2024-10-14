@@ -20,12 +20,16 @@ in relation with this editor, but you can work with the one of your choice.
       * 5 Tips for `Note Taking`_ with VS Code & Git
       * `Pull Requests`_ in VS Code
 
-As far as :hoverxref:RTD is using reStructuredText_ (RST) it is considered useful to install an 
+As far as :hoverxref:`RTD <rtd-acronym>` is using reStructuredText_ (RST) it is considered useful to install an 
 extension `reStructuredText by LeXtudio`_ (RTL). Unfortunately the extension is now considered 
 for experienced users, so we give you :doc:`some breadcrumbs</start/contribute/make_lextudio_work>`.
 
-When you feel comfortable enough with VS Code, you might find useful the official `Sphinx RST Tutorial`_ or
-try this `nice video course`_ by chance available on youtube.
+When you feel comfortable enough with VS Code, you might find useful 
+the official `Sphinx RST Tutorial`_ or try this `nice video course`_ 
+by chance available on youtube.
+
+If you are getting better with :hoverxref:`RST <rst-acronym>` check our 
+:doc:`rst snippets </start/contribute/rst_snippets>`.
 
 
 .. _ReadTheDocs: https://about.readthedocs.com/?ref=readthedocs.org
