@@ -18,7 +18,7 @@ to have 15 slots in its biggest flavor.
 First, open the Template Manager and search for the class you are going to create
 a template for, in this example, ``DWDMMux``.
 
-.. image:: /source/tutorials/dwdmring/Optix_OSN_1800V.PNG
+.. image:: /res/dwdmring/Optix_OSN_1800V.PNG
     
 Set the default attribute values in the property sheet on the right. For this 
 example,we had previously created a **Huawei OSN1800 V** entry in the ``EquipmentModel``
@@ -29,13 +29,13 @@ from the "..." menu next to the parent object. In this example, we will create
 a control board in the first slot, and communications boards with single ports
 in the next 2.
 
-.. image:: /res/start/contribute/TNF1LTX.PNG
+.. image:: /res/dwdmring/TNF1LTX.PNG
 
 If you require `SFPs`_ , create them as ``Transceiver`` instances under the boards, 
 and create a regular port under them. Change the containment configuration 
 if required.
 
-.. image:: /res/start/contribute/containment_manager.PNG
+.. image:: /res/dwdmring/containment_manager.PNG
 
 
 Creating the Devices
@@ -46,14 +46,14 @@ different buildings. Note that we will just create one of them using a template,
 the other buildings will be copied and renamed from the original. The figure 
 below shows a building with a room and a rack.
 
-.. image:: /res/start/contribute/new_object_from_template.PNG
+.. image:: /res/dwdmring/new_object_from_template.PNG
 
 Now, from the rack we can launch the **Create from Template** action from the 
 **Basic Actions** section, or the ... button next to the rack, and actually create
 the multiplexer. In the same rack we will place an ODF, also created from
 a template.
 
-.. image:: /res/start/contribute/new_object_from_template_class_ODF.PNG
+.. image:: /res/dwdmring/new_object_from_template_class_ODF.PNG
 
 ODFs (and D/MDF for that matter) deserve a special mention. In Kuwaiba, 
 distribution frames are modeled as elements with the same number of input and 
@@ -70,12 +70,12 @@ available in the development version 2.5), so we'll have to create the mirrors
 once the ODF is created. Naming the ODF ports FRONT-XX/BACK-XX is not mandatory,
 but will simplify things later, as we will see.
 
-.. image:: /res/start/contribute/ODF_4_4.PNG
+.. image:: /res/dwdmring/ODF_4_4.PNG
 
 Now that the template is ready, we can create the ODF as a sibling of the 
 multiplexer inside the rack.
 
-.. image:: /res/start/contribute/manager_port_mirroring.PNG
+.. image:: /res/dwdmring/manager_port_mirroring.PNG
 
 After the ODF has been created, we can mirror the ports by launching the 
 **Manage Port Mirroring** action from the **Advanced Actions** menu. Click the 
@@ -103,7 +103,7 @@ Let's start with the inside plant. There are several ways to create connections
 in Kuwaiba, but we are going to use the simplest method: The **Object View**. 
 Select the rack and open the **Views** section, and click on **Object View**.
 
-.. image:: /res/start/contribute/object_view.PNG
+.. image:: /res/dwdmring/object_view.PNG
 
 **Views** are graphical representations of selected objects (Other views are
 discussed in the `User's Manual`_). The **Object View** is the simplest of these
@@ -113,13 +113,13 @@ inside plant scenarios), connect elements and export the view, among other
 things. To connect the ODF and the multiplexer, click on the plug icon of 
 any of the end points, and drag it to the target.
 
-.. image:: /res/start/contribute/object_view_sfa.PNG
+.. image:: /res/dwdmring/object_view_sfa.PNG
 
 That will launch a quick wizard where you can name the connection, select its
 type, and optionally, choose a template as shown in the picture below.
 
 
-.. image:: /res/start/contribute/new_connection_optical_link.PNG
+.. image:: /res/dwdmring/new_connection_optical_link.PNG
 
 .. note:: **Note**: The screenshot says ``Fiber``, but that was just the display
      name of ``OpticalLink`` in the database used for these examples.
@@ -128,7 +128,7 @@ type, and optionally, choose a template as shown in the picture below.
 
 In the final steps, choose the ports
 
-.. image:: /res/start/contribute/new_connection_dwdm_sfa.PNG
+.. image:: /res/dwdmring/new_connection_dwdm_sfa.PNG
 
 That's it. If you see a yellow line between the ODF and the multiplexer, you 
 did it correctly (the connection color is customizable. It's the color assigned
@@ -137,7 +137,7 @@ to the class ``OpticalLink`` in the `Data Model Manager`_ ). Now we can launch a
 given port. Select the port in the multiplexer you chose to connect and click
 on **Physical Path** in the **Views** section.
 
-.. image:: /res/start/contribute/physical_path_view.PNG
+.. image:: /res/dwdmring/physical_path_view.PNG
 
 .. note:: Note: The port appears blue, with a ``[+]`` in its name. That can be 
     done with `Validators`_. **Validators** are customizable pieces of logic 
@@ -166,7 +166,7 @@ We will use the **Copy to...** operation available in the **Basic Actions**
 section or the ... button next to the object we want to copy. This 
 will open a so-called *Simple Object Selector*.
 
-.. image:: /res/start/contribute/copy_to.PNG
+.. image:: /res/dwdmring/copy_to.PNG
 
 This *Simple Object* Selector is used in several contexts. Just type the first 
 letters of the name of the target object or its class and pick it from the 
@@ -178,7 +178,7 @@ a ``Router``, an error message will be displayed). After renaming the relevant
 objects (building, rack, mux and ODF at least), you should end up with three 
 sites as depicted in the picture below.
 
-.. image:: /res/start/contribute/new_object_san_francisco.PNG
+.. image:: /res/dwdmring/new_object_san_francisco.PNG
 
 
 .. tip:: Tip: You can rename an object using the property sheet by double 
@@ -211,23 +211,23 @@ connections model requires that everything inside a container is a so-called
 special child. We won't go into details here because this is a separate topic, 
 just make sure you use the options indicated in the picture below.
 
-.. image:: /res/start/contribute/template_structure.PNG
+.. image:: /res/dwdmring/template_structure.PNG
 
 Connecting two buildings will bring up a familiar wizard, but this time, we'll be 
 using a ``WireContainer`` and the template with sub-containers.
 
-.. image:: /res/start/contribute/SFA_BUI01.PNG
+.. image:: /res/dwdmring/SFA_BUI01.PNG
 
 In the next step we select the two buildings.
 
-.. image:: /res/start/contribute/two_buildings.PNG
+.. image:: /res/dwdmring/two_buildings.PNG
 
 Repeat the procedure between **SFA-BUI-01** and **SFA-BUI-03**, but NOT between 
 **SFA-BUI-02** and **SFA-BUI-03**. For these we'll use another way. If we 
 followed the steps, the city's **Object View** should look like in the picture 
 below. In case you are wondering, we will connect the fibers last.
 
-.. image:: /res/start/contribute/connecting_sfa.PNG
+.. image:: /res/dwdmring/connecting_sfa.PNG
 
 .. note:: Note: This time the connections are purple, not yellow. Again, this 
     color correspond to the color of the class (``WireContainer`` or 
@@ -242,7 +242,7 @@ going to use the Outside Plant Manager. This module adds a spatial
 dimension to the inventory. First, we are going to create a new **OSP View**, 
 and name it and center the map in San Francisco.
 
-.. image:: /res/start/contribute/create_osp.PNG
+.. image:: /res/dwdmring/create_osp.PNG
 
 The default map provider is `OpenStreeMap`_, but we'll be using `Google Maps`_ 
 in the following screenshots. The behavior is the same for the sake of 
@@ -250,7 +250,7 @@ this example. Click the **Add Node** button, and in the filter text field,
 type **SFA-BUI** and hit Enter. If you followed the naming conventions, you 
 should see the three buildings we created previously.
 
-.. image:: /res/start/contribute/add_nodes.PNG
+.. image:: /res/dwdmring/add_nodes.PNG
 
 After selecting the nodes to be added, you will notice that the mouse pointer 
 becomes a crosshair. If the building had geo-coordinates set previously, the 
@@ -258,14 +258,14 @@ system will ask you if you wish to override them or use them. Since we haven't
 set them yet, the nodes will be placed one after the other in the position 
 you indicate.
 
-.. image:: /res/start/contribute/add_nodes_select_all.PNG
+.. image:: /res/dwdmring/add_nodes_select_all.PNG
 
 Now let's import the existing connections, and for this, use the button to 
 the right of **Add Nodes**. In the form, select the endpoints of the 
 connections you want to import. The system will detect the existing containers
 between the nodes.
 
-.. image:: /res/start/contribute/add_existing_containers.PNG
+.. image:: /res/dwdmring/add_existing_containers.PNG
 
 .. important:: Important
     An OSP view can only contain nodes that are objects of subclasses of 
@@ -277,7 +277,7 @@ If you click the container, it will be added automatically, and you will be
 asked if you want to connect the fibers inside (**Edit Connections**, in fact) 
 as can be seen in the picture below.
 
-.. image:: /res/start/contribute/edit_connections.PNG
+.. image:: /res/dwdmring/edit_connections.PNG
 
 We want to connect the back ports of the ODFs on each side using the first 
 fiber of the first subconduit. On the **SFA-BUI-01** side, you will notice 
@@ -285,7 +285,7 @@ that the front port is already connected, since we connected the devices to
 the corresponding front ports. You don't have to connect both sides, but we'll 
 do it in this example.
 
-.. image:: /res/start/contribute/connect.PNG
+.. image:: /res/dwdmring/connect.PNG
 
 .. note:: Note
     If it's relevant for your application, you can also create the lambdas 
@@ -294,13 +294,13 @@ do it in this example.
     connected, as they are not either **Links** or **Containers**, they act like 
     channels that use the physical medium.
 
-    .. image:: /res/start/contribute/open_slot_002.PNG
+    .. image:: /res/dwdmring/open_slot_002.PNG
 
 With the **Selection Tool** (the button with the hand icon), you can select 
 the container and change its route. Do the same with the container connecting
 **SFA-BUI-03**.
 
-.. image:: /res/start/contribute/connecting1.PNG
+.. image:: /res/dwdmring/connecting1.PNG
 
 There are several `Configuration Variables`_ that govern label colors and zoom 
 levels at which labels are visible. Finally, we are going to create the final 
@@ -308,30 +308,30 @@ arm of the ring between **SFA-BUI-02** and **SFA-BUI-03**. To do this, we will
 select the **Connection Tool**, then select the source building and trace the 
 route in the map until we reach the target node.
 
-.. image:: /res/start/contribute/connecting2.PNG
+.. image:: /res/dwdmring/connecting2.PNG
 
 Clicking the target node will launch a similar wizard to the one we saw before, 
 and by the end you will be offered to connect the fiber inside.
 
-.. image:: /res/start/contribute/new_container.PNG
+.. image:: /res/dwdmring/new_container.PNG
 
 You can edit the connections of a given container at any moment by 
 right-clicking it and selecting the option in the context menu. You can also 
 launch the wizard from the **Advanced Actions** menu in the `Navigation`_ module, 
 using the **Edit Connections** action.
 
-.. image:: /res/start/contribute/wirecontainer_edit_connections.PNG
+.. image:: /res/dwdmring/wirecontainer_edit_connections.PNG
 
 In the end, the ring should look like this:
 
-.. image:: /res/start/contribute/connecting3.PNG
+.. image:: /res/dwdmring/connecting3.PNG
 
 Finally, if you launch a **Physical Path** from the port of the first 
 communication board of any multiplexer, you should be able to see how it 
 reaches the next multiplexer through the ODFs on both sites and the fiber 
 you selected in the **Edit Connections** action.
 
-.. image:: /res/start/contribute/phisical_path_view.PNG
+.. image:: /res/dwdmring/phisical_path_view.PNG
 
 
 
