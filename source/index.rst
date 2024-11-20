@@ -20,14 +20,35 @@ Let's start your Kuwaiba journey...
    This project is under active development.
 
 .. toctree::   
-   :maxdepth: 2
+   :maxdepth: 3
    :hidden:
    :caption: Start
 
    start/onboarding
    start/contributing
-   start/community   
-   
+   start/community  
+   start/try_on
+
+.. toctree::   
+   :maxdepth: 2
+   :hidden: 
+   :caption: Try_on
+
+   kuwaiba_docs/source/start/try_on/add_company
+   kuwaiba_docs/source/start/try_on/add_company
+   kuwaiba_docs/source/start/try_on/main_screen
+   kuwaiba_docs/source/start/try_on/new_equipment
+   kuwaiba_docs/source/start/try_on/new_facility
+   kuwaiba_docs/source/start/try_on/new_rack
+   kuwaiba_docs/source/start/try_on/outside_plant
+   kuwaiba_docs/source/start/try_on/properties_and_attributes
+   kuwaiba_docs/source/start/try_on/queries
+   kuwaiba_docs/source/start/try_on/relate_to
+   kuwaiba_docs/source/start/try_on/reports
+   kuwaiba_docs/source/start/try_on/show_the_rack
+   kuwaiba_docs/source/start/try_on/topology_designer
+   kuwaiba_docs/source/start/try_on/warehouse
+
 .. toctree::   
    :maxdepth: 2
    :hidden:
