@@ -22,7 +22,7 @@ copyright = '2010-2024, Neotropic SAS'
 author = 'kuwaiba community'
 
 release = '0.1'
-version = '0.1.0'
+version = '0.1.1'
 
 # -- General configuration
 
