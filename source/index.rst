@@ -1,6 +1,3 @@
-PUSH HIM!!!
-=======
-
 Welcome to Kuwaiba's documentation!
 ===================================
 
